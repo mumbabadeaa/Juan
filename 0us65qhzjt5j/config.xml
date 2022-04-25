@@ -11,6 +11,6 @@
   
    <slot id='0' type='GPU'>
     <pci-bus v='0'/>
-    <pci-slot v='5'/>
+    <pci-slot v='0'/>
   </slot>
 </config>
