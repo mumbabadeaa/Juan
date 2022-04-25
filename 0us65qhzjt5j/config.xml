@@ -8,9 +8,6 @@
   <user v='4imtmu5rpytp'/>
 
   <!-- Folding Slots -->
-   <slot id='0' type='CPU'/>
-   <slot id='0' type='GPU'>
-    <pci-bus v='0'/>
-    <pci-slot v='0'/>
-  </slot>
+  
+  <idle v='true'>
 </config>
