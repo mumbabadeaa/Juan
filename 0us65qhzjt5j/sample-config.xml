@@ -1,16 +1,30 @@
 <config>
-  <!-- Slot Control -->
+
+  <!-- See sample config: /usr/share/doc/fahclient/sample-config.xml -->
+
+  <!-- Client Control 
+       Don't fold anonymously, provide user info. -->
+  <fold-anon v='false'/>
+
+  <!-- Folding Slot Configuration -->
+  <gpu v='true'/>  <!-- If true, attempt to autoconfigure GPUs -->
+
+  <!-- Slot Control
+       Options: light, medium or full
+       Watch out for high load -->
   <power v='full'/>
 
-  <!-- User Information -->
-  <passkey v='ca8a36f4a6c00ecbca8a36f4a6c00ecb'/>
-  <team v='234980'/>
-  <user v='0us65qhzjt5j'/>
+  <!-- User Information
+       Send all those points to team NairobiLUG 229502
+       http://fah-web2.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=229502 -->
+  <user v='James_Oguya'/>
+  <passkey v='ZZZZZZZZZZZZZZZZZZZZZZ'/>
+  <team v='229502'/>
 
-  <!-- Folding Slots -->
-  
-   <slot id='1' type='GPU'>
-    <pci-bus v='0'/>
-    <pci-slot v='5'/>
-  </slot>
+<cpus v='1'>     <!-- How many CPUs a slot should use. <= 0 will use all the CPUs detected in the system. -->
+
+<!-- Slot Control -->
+<idle v='true'> 
+
+
 </config>
