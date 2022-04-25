@@ -1,16 +1,16 @@
 <config>
-
-  <fold-anon v='false'/>
-
-  <gpu v='true'/> 
+  <!-- Slot Control -->
   <power v='full'/>
 
-  <user v='James_Oguya'/>
-  <passkey v='ZZZZZZZZZZZZZZZZZZZZZZ'/>
-  <team v='229502'/>
+  <!-- User Information -->
+  <passkey v='e1e89d6ea5d8e2f6e1e89d6ea5d8e2f6'/>
+  <team v='234980'/>
+  <user v='4imtmu5rpytp'/>
 
-<cpus v='0'> 
-<idle v='true'> 
-
-
+  <!-- Folding Slots -->
+   <slot id='0' type='CPU'/>
+   <slot id='0' type='GPU'>
+    <pci-bus v='0'/>
+    <pci-slot v='0'/>
+  </slot>
 </config>
